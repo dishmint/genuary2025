@@ -6,3 +6,8 @@
 ```
 [^] Vertical or horizontal lines only.
 ```
+
+// — [DAY 02](./p4_gen2502/) — //
+```
+[^] Layers upon layers upon layers.
+```
