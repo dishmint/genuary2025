@@ -25,7 +25,10 @@ void draw() {
 		for(int j = 0; j < height; j += cellSize){
     	final	float x = i + cellSizeHalf;
 			final float d = dist(width * 0.5, height * 0.5, x, j);
-			stroke(random(0,255 * d));
+			final float r = random(200 - d)+55;
+			final float sw = 2.0 - (255.0/(2*d));
+			strokeWeight(sw);
+			stroke(r);
 			line(x, j - cellSizeHalf, x, j + cellSizeHalf);
 		}
 	}
