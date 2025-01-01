@@ -9,16 +9,16 @@ import processing.javafx.*;
 final float cellSize = 10.0;
 final float cellSizeHalf = cellSize * 0.5;
 
-	void setup() {
+void setup() {
 	size(400,400, FX2D);
 	pixelDensity(displayDensity());
 	hint(ENABLE_STROKE_PURE);
 	surface.setTitle("gen25-01");
 
 	background(0);
-	}
+}
 
-	void draw() {
+void draw() {
 	background(0);
 
 	for(int i = 0; i < width; i += cellSize){
