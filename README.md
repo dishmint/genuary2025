@@ -16,3 +16,8 @@
 ```
 [^] Exactly 42 lines of code.
 ```
+
+// — [DAY 04](./p4_gen2504/) — //
+```
+[^] Black on black.
+```
