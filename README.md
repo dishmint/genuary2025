@@ -11,3 +11,8 @@
 ```
 [^] Layers upon layers upon layers.
 ```
+
+// — [DAY 03](./p4_gen2503/) — //
+```
+[^] Exactly 42 lines of code.
+```
