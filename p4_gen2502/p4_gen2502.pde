@@ -6,9 +6,9 @@
 
 import processing.javafx.*;
 import java.util.*;
-// Layers upon layers
+
 ArrayList<ArrayList<Leaf>> leaves;
-// Each column is a hue seed. drop a particle down. it hits the bottm and stays. the next particle falls and its color is related to the previous particles' color.
+
 void setup() {
 	size(400,400, FX2D);
 	pixelDensity(displayDensity());
