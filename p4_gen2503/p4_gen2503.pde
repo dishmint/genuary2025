@@ -9,7 +9,7 @@ float degrees;
 PVector center;
 PVector qcenter;
 
-void setup() {size(400,400, FX2D);pixelDensity(displayDensity());hint(ENABLE_STROKE_PURE);surface.setTitle("gen2503");surface.setResizable(false);center = new PVector(width, height);center.mult(0.5);qcenter = new PVector(width, height);qcenter.mult(0.25);rectMode(CENTER);imageMode(CENTER);background(0);}
+void setup() {size(400,400, FX2D);pixelDensity(displayDensity());hint(ENABLE_STROKE_PURE);surface.setTitle("gen2503");surface.setResizable(false);center = new PVector(width, height);center.mult(0.5);qcenter = new PVector(width, height);qcenter.mult(0.25);background(0);}
 void draw() {
 	background(0);final int num = int(random(0,12));
 	switch (num) {
